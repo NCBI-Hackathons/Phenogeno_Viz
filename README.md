@@ -1,3 +1,3 @@
 # Phenogeno_Viz
 
-![Flowhart](../images/DV Flowchart.png)
+![Image description](../images/DV Flowchart.png)
