@@ -1,3 +1,3 @@
 # Phenogeno_Viz
 
-![Image description](../images/DV Flowchart.png)
+![alt text](https://github.com/NCBI-Hackathons/Phenogeno_Viz/images/DV Flowchart.png)
