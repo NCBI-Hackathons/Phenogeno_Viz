@@ -1,4 +1,3 @@
 # Phenogeno_Viz
 
-![GitHub Logo](/images/Flowchart.png)
-Format: ![Alt Text](url)
+![alt text](https://github.com/NCBI-Hackathons/Phenogeno_Viz/images/DV Flowchart.png)
