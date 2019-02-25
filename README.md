@@ -1,3 +1,3 @@
 # Phenogeno_Viz
 
-![alt text](../images/Flowchart.png)
+![alt text](/images/Flowchart.png)
