@@ -1,7 +1,7 @@
 # Phenogeno_Viz
 
 ## About the problem
-![alt text](/images/Problem.png)
+![alt text](/images/Problem1.png)
 
 ## Work Flow
 ![alt text](/images/Flowchart.png)
