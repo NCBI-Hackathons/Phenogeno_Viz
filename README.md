@@ -1,24 +1,42 @@
-# README
+# Phenogeno_Viz
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About the problem
+![alt text](/images/Problem.png)
 
-Things you may want to cover:
+## Work Flow
+![alt text](/images/Flowchart.png)
 
-* Ruby version
+## Dependencies
 
-* System dependencies
+* Ruby 2.5.1
+* Rails 5.2.2
+* R (latest version)
+* Python 3
+* C
 
-* Configuration
+## Installation
 
-* Database creation
+**1. Install Ruby on Rails**
 
-* Database initialization
+The instructions for installing Ruby on Rails on Windows 10, Ubuntu, and OS X can be seen [here](https://github.com/tbsvttr/install-ruby-and-rails) and should be similar for different OS versions.
 
-* How to run the test suite
+**2. Get the web app**
 
-* Services (job queues, cache servers, search engines, etc.)
+    git clone https://github.com/NCBI-Hackathons/Phenogeno_Viz.git
 
-* Deployment instructions
+**3. Compile and install the Ruby C Extension**
 
-* ...
+    $ cd Phenogeno_Viz/webapp/ext/datavis/ext/
+    $ sudo bash updt.sh
+
+**4. Prepare the web server**
+
+    $ bundle update
+    $ bundle install
+
+**5. Deploy the web server**
+
+    $ rails s
+
+**Note: Unless configured, the web server will use port 3000**
+
