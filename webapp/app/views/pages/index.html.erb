@@ -1,4 +1,47 @@
+<style> 
+.btn-group button {
+  background-color: blue; /* Green background */
+  border: 1px solid blue; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: blue;
+} 
+
+.btn-group{
+  margin-top: 1%;
+  margin-left: 40%;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  margin-top: 1%;
+   margin-left: 40%;
+}
+
+</style>
+
 <div class="title">iron hack</div>
+<div class="btn-group">
+  <button onclick="ajax_get_url()">Analyze Patient Data</button>
+</div>
 <script>
-  ajax_test();
+  // Nothing to do for now
 </script>

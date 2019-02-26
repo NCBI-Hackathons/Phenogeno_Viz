@@ -17,15 +17,15 @@
 //= require jquery-ui
 //= require_tree .
 
-function ajax_test(){
+function ajax_get_url(){
 
   $.ajax({
-      url : '/pages/ajax_test',
+      url : '/pages/ajax_get_url',
       type : 'post',
       data : {},
       success: function(response){
           var x = document.getElementsByClassName('title') 
-          var html = '<div>'+response[0]+'</div>';
+          var html = '<img src="'+response[0]+'" </img>';
           $(html).insertAfter(x[0]);
       },
       error:function(){

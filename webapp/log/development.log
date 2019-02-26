@@ -10342,3 +10342,345 @@ Processing by PagesController#ajax_test as */*
 Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:38:58 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 257ms (Views: 249.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:38:58 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:43:42 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 236ms (Views: 229.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:43:43 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:45:19 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:45:19 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 212.14.243.102 at 2019-02-26 12:45:31 -0600
+Cannot render console from 212.14.243.102! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:46:28 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:46:28 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:47:25 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 124ms (Views: 122.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:47:25 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:48:09 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 115.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:48:09 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:48:25 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 122ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:48:25 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:49:06 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 121.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:49:07 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:49:34 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 117.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:49:34 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:50:23 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 121.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:50:23 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:50:59 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 115.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:50:59 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 12:55:36 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 118.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.33 at 2019-02-26 12:55:36 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.64 at 2019-02-26 13:04:13 -0600
+Cannot render console from 131.247.226.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 122.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_test" for 131.247.226.64 at 2019-02-26 13:04:13 -0600
+Cannot render console from 131.247.226.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_test as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 190.152.215.190 at 2019-02-26 13:12:02 -0600
+Cannot render console from 190.152.215.190! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 111ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 13:16:00 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 488ms (Views: 480.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.64 at 2019-02-26 13:16:15 -0600
+Cannot render console from 131.247.226.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 161ms (Views: 159.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.64 at 2019-02-26 13:17:12 -0600
+Cannot render console from 131.247.226.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 462ms (Views: 454.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_get_url" for 131.247.226.64 at 2019-02-26 13:17:12 -0600
+Cannot render console from 131.247.226.64! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_get_url as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 13:20:14 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 256ms (Views: 248.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_get_url" for 131.247.226.33 at 2019-02-26 13:20:16 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_get_url as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 13:20:19 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_get_url" for 131.247.226.33 at 2019-02-26 13:20:21 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_get_url as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 13:20:23 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 111ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 13:22:35 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 121ms (Views: 119.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_get_url" for 131.247.226.33 at 2019-02-26 13:22:37 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_get_url as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 13:22:39 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 13:23:19 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 650ms (Views: 642.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_get_url" for 131.247.226.33 at 2019-02-26 13:23:21 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_get_url as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_get_url" for 131.247.226.33 at 2019-02-26 13:23:22 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_get_url as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 13:24:04 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 270ms (Views: 262.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_get_url" for 131.247.226.33 at 2019-02-26 13:24:31 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_get_url as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.247.226.33 at 2019-02-26 13:24:36 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages/ajax_get_url" for 131.247.226.33 at 2019-02-26 13:24:39 -0600
+Cannot render console from 131.247.226.33! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#ajax_get_url as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 124.122.0.15 at 2019-02-26 13:25:33 -0600
+Cannot render console from 124.122.0.15! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 118ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+
+

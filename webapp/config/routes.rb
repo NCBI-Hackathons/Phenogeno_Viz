@@ -2,6 +2,6 @@ Rails.application.routes.draw do
 
   root to: 'pages#index'
 
-  post "/pages/ajax_test" => "pages#ajax_test"
+  post "/pages/ajax_get_url" => "pages#ajax_get_url"
 
 end
