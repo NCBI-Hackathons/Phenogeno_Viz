@@ -22,18 +22,18 @@ The instructions for installing Ruby on Rails on Windows 10, Ubuntu, and OS X ca
 
 **2. Get the web app**
 
-        git clone https://github.com/NCBI-Hackathons/Phenogeno_Viz.git
+    git clone https://github.com/NCBI-Hackathons/Phenogeno_Viz.git
 
 **3. Compile and install the Ruby C Extension**
 
-        $ cd Phenogeno_Viz/webapp/ext/datavis/ext/
-        $ sudo bash updt.sh
+    $ cd Phenogeno_Viz/webapp/ext/datavis/ext/
+    $ sudo bash updt.sh
 
 **4. Deploy the web server**
 
-        $ bundle update
-    	$ bundle install
-        $ rails s
+    $ bundle update
+    $ bundle install
+    $ rails s
 
 **Note: Unless configured, the web server will use port 3000**
 
