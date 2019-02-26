@@ -35,6 +35,7 @@ The instructions for installing Ruby on Rails on Windows 10, Ubuntu, and OS X ca
     $ bundle install
 
 **5. Deploy the web server**
+
     $ rails s
 
 **Note: Unless configured, the web server will use port 3000**
