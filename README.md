@@ -29,10 +29,12 @@ The instructions for installing Ruby on Rails on Windows 10, Ubuntu, and OS X ca
     $ cd Phenogeno_Viz/webapp/ext/datavis/ext/
     $ sudo bash updt.sh
 
-**4. Deploy the web server**
+**4. Prepare the web server**
 
     $ bundle update
     $ bundle install
+
+**5. Deploy the web server**
     $ rails s
 
 **Note: Unless configured, the web server will use port 3000**
