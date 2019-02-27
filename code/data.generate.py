@@ -2,8 +2,6 @@
 import sys
 import subprocess
 import os
-import numpy
-import random
 from operator import itemgetter
 import math
 

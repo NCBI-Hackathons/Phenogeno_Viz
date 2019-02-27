@@ -66,10 +66,10 @@ diffRun <- function(df = dfAll, sample.num = 10,
          )
     points(log(df1mean + 1)[uperGene], 
            log(df2mean + 1)[uperGene],
-           pch = 21, bg = 'forest green', cex = 0.8)
+           pch = 21, bg = 'forest green', cex = 1.5)
     points(log(df1mean + 1)[downGene], 
            log(df2mean + 1)[downGene],
-           pch = 21, bg = 'red', cex = 0.8)
+           pch = 21, bg = 'red', cex = 1.5)
     
     return(list(upRegulatedGene   = rownames(df)[uperGene],
            downRegulatedGene = rownames(df)[downGene]))
@@ -111,12 +111,15 @@ runningProgram <- function(data = dfAll,
 
 
 ##load trimmed tissue data
-dfAll <- read.table('aa',header = T, sep = '\t')
+dfAll <- read.table('OUTPUT',header = T, sep = '\t')
 ##load disease associated genes
 diseaseAssociatedGene <- read.delim2('PheGenI_Association_full.tab',
                                      header = T, sep = '\t')
+
+png('output.png', height = 10, width = 10)
 runningProgram(dfAll, diseaseAssociatedGene,
                tissueName = c('Brain', 'Blood'))
+dev.off()
 # #pdf('boxplot_deseq.pdf',height = 5, width = 4)
 # par(mar =c(4,10,1,1))
 # boxplotForSampling(log(nor_dataCombine +1),
