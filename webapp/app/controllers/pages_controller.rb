@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   def index
   end
 
-  def landing
+  def explorer
   end
 
   def ajax_test

@@ -1,0 +1,137 @@
+<style> 
+.btn-group button {
+  background-color: #248E6D; /* Green background */
+  border: 1px solid black; /* Green border */ 
+  border-radius: 5px;
+  font-size:16px;
+  color: white; /* White text */
+  font-weight:normal;
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: right; /* Float the buttons side by side */
+  margin-right:20px;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #215952;
+} 
+
+.btn-group{
+  margin-top: 1%;
+  margin-left: 40%;
+}
+
+img {
+  height: 400px;
+  margin-top: 1%;
+   margin-left: 40%;
+}
+
+</style>
+<div style="position:fixed;width:98%;overflow:hidden">
+<div class="title btn-group"><span style="position:relative;">Select Tissue(s) of Interest:</span>
+<button class="ih-btn" onclick="ajax_get_url()">Analyze Data</button>
+</div>
+<hr style="margin:0;">
+  <table style="width:100vw;">
+  <td style="vertical-align:top;width:300px;">
+<table style="margin-left:20px">
+<tr class="tissue-tr">
+<td>
+  <div style="position:relative;float:left;margin-top:20px;"><span style="font-weight:bold;">Tissue 1</span>
+  <select style="width:200px;height:30px;font-size:20px;color:#888888;margin-top:5px;margin-bottom:10px;">
+<option>Adipose Tissue</option>
+<option>Adrenal Gland</option>
+<option>Bladder</option>
+<option>Blood</option>
+<option>Blood Vessel</option>
+<option>Brain</option>
+<option>Breast</option>
+<option>Cervix Uteri</option>
+<option>Colon</option>
+<option>Esophagus</option>
+<option>Fallopian Tube</option>
+<option>Heart</option>
+<option>Kidney</option>
+<option>Liver</option>
+<option>Lung</option>
+<option>Muscle</option>
+<option>Nerve</option>
+<option>Ovary</option>
+<option>Pancreas</option>
+<option>Pituitary</option>
+<option>Prostate</option>
+<option>Salivary Gland</option>
+<option>Skin</option>
+<option>Small Intestine</option>
+<option>Spleen</option>
+<option>Stomach</option>
+<option>Testis</option>
+<option>Thyroid</option>
+<option>Uterus</option>
+<option>Vagina</option>
+  </select></td></tr>
+<tr class="tissue-tr">
+  <td>
+  <span style="font-weight:bold;">Tissue 2</span>
+  <select style="width:200px;height:30px;font-size:20px;color:#888888;margin-top:5px;margin-bottom:10px;">
+<option>Adipose Tissue</option>
+<option>Adrenal Gland</option>
+<option>Bladder</option>
+<option>Blood</option>
+<option>Blood Vessel</option>
+<option>Brain</option>
+<option>Breast</option>
+<option>Cervix Uteri</option>
+<option>Colon</option>
+<option>Esophagus</option>
+<option>Fallopian Tube</option>
+<option>Heart</option>
+<option>Kidney</option>
+<option>Liver</option>
+<option>Lung</option>
+<option>Muscle</option>
+<option>Nerve</option>
+<option>Ovary</option>
+<option>Pancreas</option>
+<option>Pituitary</option>
+<option>Prostate</option>
+<option>Salivary Gland</option>
+<option>Skin</option>
+<option>Small Intestine</option>
+<option>Spleen</option>
+<option>Stomach</option>
+<option>Testis</option>
+<option>Thyroid</option>
+<option>Uterus</option>
+<option>Vagina</option>
+  </select>
+  </td></tr>
+<tr><td>
+<div class="title btn-group">
+<button class="ih-btn" onclick="add_tissue();" style="width:260px;margin-left:-20px">Add Tissue</button>
+</div>
+</td></tr></table>
+  </div>
+  </td>
+  <td style="width: calc(100vw - 300px);">
+    <div style="overflow:auto;height:100vh;">
+    <table>
+    <tr class="plot-anchor"></tr>
+    </table>
+    </div>
+  </td>
+</table>
+</div>
