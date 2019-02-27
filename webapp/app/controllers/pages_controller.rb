@@ -3,6 +3,9 @@ class PagesController < ApplicationController
   def index
   end
 
+  def landing
+  end
+
   def ajax_test
     #declare/init a ruby array
     found_array ||= []
