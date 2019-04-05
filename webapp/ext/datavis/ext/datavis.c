@@ -5,6 +5,8 @@
 #define RB_GLOFN rb_define_global_function
 #define CSTR(__Y__,__X__) char *__Y__ = StringValueCStr(__X__) //rb -> c
 
+#define BUFSIZE 15 
+
 //prototypical hybrid rb-C fn
 val rb_test_fn(val self) {
   val hash = rb_hash_new();
@@ -20,7 +22,7 @@ val rb_return_graphUrls(val self) {
   return hash;
 }
 
-val do_slow_stuff_with_python_and_R(val self, val T1, val T2) {
+val rb_do_slow_stuff_with_python_and_R(val self, val T1, val T2) {
 
     CSTR(t1,T1); 
     CSTR(t2,T2);
